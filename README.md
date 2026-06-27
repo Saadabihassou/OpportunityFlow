@@ -20,20 +20,20 @@ Help every founder discover the right opportunity at the right time.
 
 Primary users:
 
-* Early-stage startup founders
-* Solo founders
-* Technical founders
-* Student entrepreneurs
-* Startup teams looking for funding
+- Early-stage startup founders
+- Solo founders
+- Technical founders
+- Student entrepreneurs
+- Startup teams looking for funding
 
 Future expansion:
 
-* Freelancers
-* Agencies
-* Developers
-* Researchers
-* Job seekers
-* Other professionals searching for opportunities
+- Freelancers
+- Agencies
+- Developers
+- Researchers
+- Job seekers
+- Other professionals searching for opportunities
 
 ---
 
@@ -51,10 +51,10 @@ The first version should be simple, fast, and useful.
 
 ## Authentication
 
-* User registration
-* Login
-* Logout
-* Protected dashboard
+- User registration
+- Login
+- Logout
+- Protected dashboard
 
 ---
 
@@ -62,13 +62,13 @@ The first version should be simple, fast, and useful.
 
 Users can configure:
 
-* Startup name
-* Industry
-* Country
-* Startup stage
-* Team size
-* Funding stage
-* Website (optional)
+- Startup name
+- Industry
+- Country
+- Startup stage
+- Team size
+- Funding stage
+- Website (optional)
 
 ---
 
@@ -76,16 +76,16 @@ Users can configure:
 
 Store opportunities including:
 
-* Title
-* Organization
-* Description
-* Category
-* Deadline
-* Country
-* Eligibility
-* Funding amount
-* Official URL
-* Source
+- Title
+- Organization
+- Description
+- Category
+- Deadline
+- Country
+- Eligibility
+- Funding amount
+- Official URL
+- Source
 
 ---
 
@@ -93,10 +93,10 @@ Store opportunities including:
 
 Display opportunities with:
 
-* Search
-* Filters
-* Sorting
-* Pagination
+- Search
+- Filters
+- Sorting
+- Pagination
 
 ---
 
@@ -106,11 +106,11 @@ Recommend opportunities based on the founder profile.
 
 The matching logic should prioritize:
 
-* Industry
-* Startup stage
-* Country
-* Eligibility
-* Funding type
+- Industry
+- Startup stage
+- Country
+- Eligibility
+- Funding type
 
 ---
 
@@ -118,11 +118,11 @@ The matching logic should prioritize:
 
 Each opportunity page should display:
 
-* Full description
-* Eligibility
-* Deadline
-* Funding information
-* Official application link
+- Full description
+- Eligibility
+- Deadline
+- Funding information
+- Official application link
 
 ---
 
@@ -136,28 +136,28 @@ Users can bookmark opportunities.
 
 Dashboard should show:
 
-* Recommended opportunities
-* Saved opportunities
-* Upcoming deadlines
-* Recently added opportunities
+- Recommended opportunities
+- Saved opportunities
+- Upcoming deadlines
+- Recently added opportunities
 
 ---
 
 # Future Features
 
-* AI opportunity summaries
-* AI application assistant
-* Deadline reminders
-* Email notifications
-* Calendar integration
-* Opportunity scoring
-* Application tracking
-* Team workspaces
-* Admin dashboard
-* Web scraping automation
-* Opportunity verification
-* Analytics
-* Stripe subscriptions
+- AI opportunity summaries
+- AI application assistant
+- Deadline reminders
+- Email notifications
+- Calendar integration
+- Opportunity scoring
+- Application tracking
+- Team workspaces
+- Admin dashboard
+- Web scraping automation
+- Opportunity verification
+- Analytics
+- Stripe subscriptions
 
 ---
 
@@ -165,37 +165,38 @@ Dashboard should show:
 
 Frontend
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
 UI
-* Shadcn UI / Shadcn libraries
+
+- Shadcn UI / Shadcn libraries
 
 Backend
 
-* Next.js API Routes
+- Next.js API Routes
 
 Database
 
-* PostgreSQL
+- PostgreSQL
 
 ORM
 
-* Prisma
+- Prisma
 
 Authentication
 
-* Better Auth
+- Better Auth
 
 Deployment
 
-* Vercel
+- Vercel
 
 Version Control
 
-* Git + GitHub
+- Git + GitHub
 
 ---
 
@@ -203,14 +204,14 @@ Version Control
 
 The application should always be:
 
-* Fast
-* Clean
-* Minimal
-* Modern
-* Responsive
-* Accessible
-* Scalable
-* Maintainable
+- Fast
+- Clean
+- Minimal
+- Modern
+- Responsive
+- Accessible
+- Scalable
+- Maintainable
 
 ---
 
@@ -218,14 +219,14 @@ The application should always be:
 
 When implementing features:
 
-* Keep components reusable.
-* Write clean TypeScript.
-* Avoid duplicated code.
-* Prefer readability over cleverness.
-* Follow modern React patterns.
-* Use server components where appropriate.
-* Keep business logic separated from UI.
-* Build for scalability from the beginning.
+- Keep components reusable.
+- Write clean TypeScript.
+- Avoid duplicated code.
+- Prefer readability over cleverness.
+- Follow modern React patterns.
+- Use server components where appropriate.
+- Keep business logic separated from UI.
+- Build for scalability from the beginning.
 
 ---
 
@@ -249,12 +250,12 @@ Folders should remain organized and modular.
 
 # Coding Standards
 
-* Use TypeScript everywhere.
-* Use descriptive variable names.
-* Keep components small.
-* Prefer composition over duplication.
-* Document complex logic.
-* Keep files focused on one responsibility.
+- Use TypeScript everywhere.
+- Use descriptive variable names.
+- Keep components small.
+- Prefer composition over duplication.
+- Document complex logic.
+- Keep files focused on one responsibility.
 
 ---
 
@@ -264,14 +265,14 @@ Assume this project is a production-ready SaaS.
 
 When generating code:
 
-* Follow the existing architecture.
-* Prefer reusable components.
-* Explain architectural decisions before major changes.
-* Do not generate unnecessary complexity.
-* Keep the MVP simple.
-* Preserve scalability.
-* Avoid breaking existing features.
-* Use best practices for Next.js, React, TypeScript, Prisma, and PostgreSQL.
+- Follow the existing architecture.
+- Prefer reusable components.
+- Explain architectural decisions before major changes.
+- Do not generate unnecessary complexity.
+- Keep the MVP simple.
+- Preserve scalability.
+- Avoid breaking existing features.
+- Use best practices for Next.js, React, TypeScript, Prisma, and PostgreSQL.
 
 ---
 

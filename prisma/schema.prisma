@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Better Auth manages User, Session, Account, Verification tables.
+// Run `npx @better-auth/cli generate` after auth setup to merge auth models.
+
+model FounderProfile {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  startupName  String
+  industry     String
+  country      String
+  startupStage String
+  teamSize     Int
+  fundingStage String
+  website      String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("founder_profiles")
+}
+
+model Opportunity {
+  id             String    @id @default(cuid())
+  title          String
+  organization   String
+  description    String    @db.Text
+  category       String
+  deadline       DateTime?
+  country        String?
+  eligibility    String?   @db.Text
+  fundingAmount  String?
+  officialUrl    String
+  source         String
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  savedBy SavedOpportunity[]
+
+  @@index([category])
+  @@index([deadline])
+  @@index([country])
+  @@map("opportunities")
+}
+
+model SavedOpportunity {
+  id            String   @id @default(cuid())
+  userId        String
+  opportunityId String
+  createdAt     DateTime @default(now())
+
+  opportunity Opportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, opportunityId])
+  @@index([userId])
+  @@map("saved_opportunities")
+}

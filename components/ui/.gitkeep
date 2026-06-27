@@ -1,0 +1,3 @@
+// Shadcn UI primitives — add via `npx shadcn@latest init` in Milestone 2
+
+export {};
